@@ -6,8 +6,9 @@ target 'ShopMe' do
   use_frameworks!
 
   # Pods for ShopMe
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth’
+  pod 'Firebase/Database'
 
-pod 'Firebase/Core'
-pod 'Firebase/Database'
 
 end

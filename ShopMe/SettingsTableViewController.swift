@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SettingsTableViewController: UITableViewController {
 
@@ -32,23 +33,35 @@ class SettingsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 1
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "logout", for: indexPath)
 
         // Configure the cell...
 
         return cell
     }
-    */
+    
+    @IBAction func logoutButton(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            let loginPage = storyboard?.instantiateViewController(withIdentifier: "login")
+            self.present(loginPage!, animated: true, completion: nil)
+            
+            
+        } catch {
+            print("There was a problem logging out")
+        }
+    }
+ 
 
     /*
     // Override to support conditional editing of the table view.

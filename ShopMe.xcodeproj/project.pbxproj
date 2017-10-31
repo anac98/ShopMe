@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BB2F94BE1FA39FC7000335BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F94BD1FA39FC7000335BF /* AppDelegate.swift */; };
-		BB2F94C01FA39FC7000335BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F94BF1FA39FC7000335BF /* ViewController.swift */; };
 		BB2F94C31FA39FC7000335BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F94C11FA39FC7000335BF /* Main.storyboard */; };
 		BB2F94C51FA39FC7000335BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2F94C41FA39FC7000335BF /* Assets.xcassets */; };
 		BB2F94C81FA39FC7000335BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F94C61FA39FC7000335BF /* LaunchScreen.storyboard */; };
@@ -17,8 +16,12 @@
 		BB520A301FA8538400ACF8EB /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A2F1FA8538400ACF8EB /* LocationSearchTable.swift */; };
 		BB520A341FA855F400ACF8EB /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A331FA855F400ACF8EB /* Artwork.swift */; };
 		BB520A361FA8565600ACF8EB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A351FA8565600ACF8EB /* MapViewController.swift */; };
+		BB520A391FA8597500ACF8EB /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB520A371FA8597500ACF8EB /* Model.xcdatamodeld */; };
+		BB520A3B1FA85A6C00ACF8EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB520A3A1FA85A6C00ACF8EB /* GoogleService-Info.plist */; };
+		BB520A3D1FA85BE800ACF8EB /* LoggedInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A3C1FA85BE700ACF8EB /* LoggedInVC.swift */; };
+		BB520A431FA85C5800ACF8EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A421FA85C5800ACF8EB /* LoginViewController.swift */; };
 		BB881DB21FA7CDA00018FFA9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */; };
-		BBAA7BD61FA50C7300367429 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBAA7BD51FA50C7200367429 /* GoogleService-Info.plist */; };
+		BB9F4E891FA8E40C00C69C81 /* AddListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */; };
 		BBBE4AE81FA589DC00BE8598 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */; };
 		E0DC5AF431314F4E31B6FFDC /* Pods_ShopMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE6848E35543F7C410D6C49 /* Pods_ShopMe.framework */; };
 /* End PBXBuildFile section */
@@ -28,7 +31,6 @@
 		B3380143DDC2D4BE2D10166D /* Pods-ShopMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopMe/Pods-ShopMe.release.xcconfig"; sourceTree = "<group>"; };
 		BB2F94BA1FA39FC7000335BF /* ShopMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2F94BD1FA39FC7000335BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB2F94BF1FA39FC7000335BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB2F94C21FA39FC7000335BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB2F94C41FA39FC7000335BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB2F94C71FA39FC7000335BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,8 +40,12 @@
 		BB520A2F1FA8538400ACF8EB /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		BB520A331FA855F400ACF8EB /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		BB520A351FA8565600ACF8EB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BB520A381FA8597500ACF8EB /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		BB520A3A1FA85A6C00ACF8EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB520A3C1FA85BE700ACF8EB /* LoggedInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInVC.swift; sourceTree = "<group>"; };
+		BB520A421FA85C5800ACF8EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
-		BBAA7BD51FA50C7200367429 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListTableViewController.swift; sourceTree = "<group>"; };
 		BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		FEE6848E35543F7C410D6C49 /* Pods_ShopMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,20 +91,23 @@
 		BB2F94BC1FA39FC7000335BF /* ShopMe */ = {
 			isa = PBXGroup;
 			children = (
-				BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */,
 				BB2F94BD1FA39FC7000335BF /* AppDelegate.swift */,
-				BB2F94BF1FA39FC7000335BF /* ViewController.swift */,
-				BB2F94C11FA39FC7000335BF /* Main.storyboard */,
-				BB2F94C41FA39FC7000335BF /* Assets.xcassets */,
-				BB2F94C61FA39FC7000335BF /* LaunchScreen.storyboard */,
+				BB520A421FA85C5800ACF8EB /* LoginViewController.swift */,
+				BB520A3C1FA85BE700ACF8EB /* LoggedInVC.swift */,
+				BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */,
+				BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */,
 				BB2F94D71FA50494000335BF /* ListTableViewController.swift */,
-				BB2F94C91FA39FC7000335BF /* Info.plist */,
+				BB520A351FA8565600ACF8EB /* MapViewController.swift */,
+				BB520A331FA855F400ACF8EB /* Artwork.swift */,
+				BB520A2F1FA8538400ACF8EB /* LocationSearchTable.swift */,
 				BB2F94D31FA3A212000335BF /* BrowseViewController.swift */,
 				BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */,
-				BBAA7BD51FA50C7200367429 /* GoogleService-Info.plist */,
-				BB520A2F1FA8538400ACF8EB /* LocationSearchTable.swift */,
-				BB520A331FA855F400ACF8EB /* Artwork.swift */,
-				BB520A351FA8565600ACF8EB /* MapViewController.swift */,
+				BB2F94C41FA39FC7000335BF /* Assets.xcassets */,
+				BB2F94C11FA39FC7000335BF /* Main.storyboard */,
+				BB2F94C61FA39FC7000335BF /* LaunchScreen.storyboard */,
+				BB520A3A1FA85A6C00ACF8EB /* GoogleService-Info.plist */,
+				BB2F94C91FA39FC7000335BF /* Info.plist */,
+				BB520A371FA8597500ACF8EB /* Model.xcdatamodeld */,
 			);
 			path = ShopMe;
 			sourceTree = "<group>";
@@ -175,7 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2F94C81FA39FC7000335BF /* LaunchScreen.storyboard in Resources */,
-				BBAA7BD61FA50C7300367429 /* GoogleService-Info.plist in Resources */,
+				BB520A3B1FA85A6C00ACF8EB /* GoogleService-Info.plist in Resources */,
 				BB2F94C51FA39FC7000335BF /* Assets.xcassets in Resources */,
 				BB2F94C31FA39FC7000335BF /* Main.storyboard in Resources */,
 			);
@@ -224,12 +233,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ShopMe/Pods-ShopMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -246,15 +257,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB2F94C01FA39FC7000335BF /* ViewController.swift in Sources */,
 				BB2F94BE1FA39FC7000335BF /* AppDelegate.swift in Sources */,
 				BB520A301FA8538400ACF8EB /* LocationSearchTable.swift in Sources */,
+				BB9F4E891FA8E40C00C69C81 /* AddListTableViewController.swift in Sources */,
 				BB2F94D41FA3A212000335BF /* BrowseViewController.swift in Sources */,
 				BB520A361FA8565600ACF8EB /* MapViewController.swift in Sources */,
 				BB881DB21FA7CDA00018FFA9 /* ListTableViewCell.swift in Sources */,
 				BB2F94D81FA50494000335BF /* ListTableViewController.swift in Sources */,
+				BB520A391FA8597500ACF8EB /* Model.xcdatamodeld in Sources */,
 				BB520A341FA855F400ACF8EB /* Artwork.swift in Sources */,
+				BB520A3D1FA85BE800ACF8EB /* LoggedInVC.swift in Sources */,
 				BBBE4AE81FA589DC00BE8598 /* SettingsTableViewController.swift in Sources */,
+				BB520A431FA85C5800ACF8EB /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +455,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB520A371FA8597500ACF8EB /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB520A381FA8597500ACF8EB /* Model.xcdatamodel */,
+			);
+			currentVersion = BB520A381FA8597500ACF8EB /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BB2F94B21FA39FC7000335BF /* Project object */;
 }

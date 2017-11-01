@@ -76,27 +76,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="itemName" id="m0F-49-jyu">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="itemName" id="m0F-49-jyu" customClass="ListTableViewCell" customModule="ShopMe" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m0F-49-jyu" id="jJb-Uh-Til">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="46m-AA-xeZ">
-                                            <rect key="frame" x="8" y="6" width="288" height="30"/>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tW3-Eh-dUx">
+                                            <rect key="frame" x="8" y="0.0" width="284" height="44"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="44" id="EnZ-Nb-1xh"/>
+                                            </constraints>
                                             <nil key="textColor"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="yes"/>
                                         </textField>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="46m-AA-xeZ" secondAttribute="trailing" constant="79" id="5mq-eh-lCu"/>
-                                        <constraint firstItem="46m-AA-xeZ" firstAttribute="top" secondItem="jJb-Uh-Til" secondAttribute="top" constant="6" id="FbD-xy-h2X"/>
-                                        <constraint firstAttribute="bottom" secondItem="46m-AA-xeZ" secondAttribute="bottom" constant="7.5" id="RSB-pf-Kda"/>
-                                        <constraint firstItem="46m-AA-xeZ" firstAttribute="leading" secondItem="jJb-Uh-Til" secondAttribute="leading" constant="8" id="cmi-XS-6de"/>
+                                        <constraint firstItem="tW3-Eh-dUx" firstAttribute="leading" secondItem="jJb-Uh-Til" secondAttribute="leading" constant="8" id="9ry-Gb-XEl"/>
+                                        <constraint firstItem="tW3-Eh-dUx" firstAttribute="top" secondItem="jJb-Uh-Til" secondAttribute="top" id="CaZ-6F-L0n"/>
+                                        <constraint firstAttribute="bottom" secondItem="tW3-Eh-dUx" secondAttribute="bottom" id="Hl2-6r-BNd"/>
+                                        <constraint firstAttribute="trailing" secondItem="tW3-Eh-dUx" secondAttribute="trailing" constant="83" id="ls9-tQ-Rns"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="textField" destination="tW3-Eh-dUx" id="ufy-P0-4sc"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -397,7 +403,7 @@
         <scene sceneID="kfk-7Y-xxA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9pQ-wh-oUa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Lists" selectedImage="list" id="Qha-Hp-PBU"/>
+                    <tabBarItem key="tabBarItem" title="Lists" image="list" selectedImage="list" id="Qha-Hp-PBU"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8GV-0G-jiY">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -416,7 +422,7 @@
         <scene sceneID="8QI-jn-pep">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QFp-SH-CU8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" selectedImage="location" id="nP8-mh-PAK"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Map" image="location" selectedImage="location" id="nP8-mh-PAK"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pia-GC-gLb">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -435,7 +441,7 @@
         <scene sceneID="4S2-oA-jlI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wGj-sk-37q" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Browse" selectedImage="search" id="XGs-lR-Uaw"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Browse" image="search" selectedImage="search" id="XGs-lR-Uaw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Mc-Gw-YzU">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -454,7 +460,7 @@
         <scene sceneID="pMy-Tm-qnS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="deu-md-1FF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" selectedImage="settings" id="PF0-fV-aNk">
+                    <tabBarItem key="tabBarItem" tag="3" title="Settings" image="settings" selectedImage="settings" id="PF0-fV-aNk">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>

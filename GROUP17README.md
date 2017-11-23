@@ -1,21 +1,20 @@
 Implementation Contributions:
 Joanna Wu: 33% 
-- Laid out the whole storyboard
-- Started working on the shopping list function
+- Worked on functionality of storing shopping lists
+- Connected everything with Firebase database
 
-Amit Nacson: 33% 
-- Created the map function
-- Created the search function
-
-Josh Ke: 33% 
-- Created the Login screen
-- Implemented Firebase (with CocoaPods)
+Amit Nacson: 27% 
+- Worked on the preferences
+- Researched the product search function
+Josh Ke: 40% 
+- Store screen
+- Department screen
 
 Grading Level: 
 Same grade for all members.
 
 Differences:
-We need to finish the shopping list function. To make up for that, we created the map and search function.
+We need to finish the price comparison function. To make up for that, we created the store and department lists.
 
 Special Instructions:
 None

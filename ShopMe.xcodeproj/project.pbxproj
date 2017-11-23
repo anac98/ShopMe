@@ -20,6 +20,27 @@
 		BB520A3B1FA85A6C00ACF8EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB520A3A1FA85A6C00ACF8EB /* GoogleService-Info.plist */; };
 		BB520A3D1FA85BE800ACF8EB /* LoggedInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A3C1FA85BE700ACF8EB /* LoggedInVC.swift */; };
 		BB520A431FA85C5800ACF8EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A421FA85C5800ACF8EB /* LoginViewController.swift */; };
+		BB5721871FC0EF0F0073DDA8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5721861FC0EF0F0073DDA8 /* Item.swift */; };
+		BB57218B1FC218BB0073DDA8 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57218A1FC218BB0073DDA8 /* customCell.swift */; };
+		BB57218D1FC4F7960073DDA8 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57218C1FC4F7960073DDA8 /* List.swift */; };
+		BB5721941FC53B160073DDA8 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57218E1FC53B150073DDA8 /* StoreViewController.swift */; };
+		BB5721951FC53B160073DDA8 /* myCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB57218F1FC53B150073DDA8 /* myCell2.swift */; };
+		BB5721961FC53B160073DDA8 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5721901FC53B150073DDA8 /* myCell.swift */; };
+		BB5721991FC53B160073DDA8 /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5721931FC53B160073DDA8 /* DepartmentViewController.swift */; };
+		BB5721A41FC546530073DDA8 /* frozen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB57219C1FC546520073DDA8 /* frozen.jpg */; };
+		BB5721A51FC546530073DDA8 /* breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB57219D1FC546520073DDA8 /* breakfast.jpg */; };
+		BB5721A61FC546530073DDA8 /* pasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB57219E1FC546520073DDA8 /* pasta.jpg */; };
+		BB5721A71FC546530073DDA8 /* pantry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB57219F1FC546520073DDA8 /* pantry.jpg */; };
+		BB5721A81FC546530073DDA8 /* meat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5721A01FC546520073DDA8 /* meat.jpg */; };
+		BB5721A91FC546530073DDA8 /* dairy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5721A11FC546520073DDA8 /* dairy.jpg */; };
+		BB5721AA1FC546530073DDA8 /* produce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5721A21FC546520073DDA8 /* produce.jpg */; };
+		BB5721AB1FC546530073DDA8 /* snacks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5721A31FC546530073DDA8 /* snacks.jpg */; };
+		BB5721B31FC546910073DDA8 /* costco.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721AD1FC546900073DDA8 /* costco.png */; };
+		BB5721B41FC546910073DDA8 /* wheatsville.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721AE1FC546900073DDA8 /* wheatsville.png */; };
+		BB5721B51FC546910073DDA8 /* whole.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721AF1FC546900073DDA8 /* whole.png */; };
+		BB5721B61FC546910073DDA8 /* heb.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721B01FC546900073DDA8 /* heb.png */; };
+		BB5721B71FC546910073DDA8 /* central.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721B11FC546900073DDA8 /* central.png */; };
+		BB5721B81FC546910073DDA8 /* cvs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721B21FC546900073DDA8 /* cvs.png */; };
 		BB881DB21FA7CDA00018FFA9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */; };
 		BB9F4E891FA8E40C00C69C81 /* AddListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */; };
 		BBBE4AE81FA589DC00BE8598 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */; };
@@ -44,6 +65,27 @@
 		BB520A3A1FA85A6C00ACF8EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB520A3C1FA85BE700ACF8EB /* LoggedInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggedInVC.swift; sourceTree = "<group>"; };
 		BB520A421FA85C5800ACF8EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BB5721861FC0EF0F0073DDA8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BB57218A1FC218BB0073DDA8 /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		BB57218C1FC4F7960073DDA8 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		BB57218E1FC53B150073DDA8 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		BB57218F1FC53B150073DDA8 /* myCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell2.swift; sourceTree = "<group>"; };
+		BB5721901FC53B150073DDA8 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+		BB5721931FC53B160073DDA8 /* DepartmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentViewController.swift; sourceTree = "<group>"; };
+		BB57219C1FC546520073DDA8 /* frozen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = frozen.jpg; path = ShopMe/departments/frozen.jpg; sourceTree = "<group>"; };
+		BB57219D1FC546520073DDA8 /* breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = breakfast.jpg; path = ShopMe/departments/breakfast.jpg; sourceTree = "<group>"; };
+		BB57219E1FC546520073DDA8 /* pasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pasta.jpg; path = ShopMe/departments/pasta.jpg; sourceTree = "<group>"; };
+		BB57219F1FC546520073DDA8 /* pantry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pantry.jpg; path = ShopMe/departments/pantry.jpg; sourceTree = "<group>"; };
+		BB5721A01FC546520073DDA8 /* meat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meat.jpg; path = ShopMe/departments/meat.jpg; sourceTree = "<group>"; };
+		BB5721A11FC546520073DDA8 /* dairy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dairy.jpg; path = ShopMe/departments/dairy.jpg; sourceTree = "<group>"; };
+		BB5721A21FC546520073DDA8 /* produce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = produce.jpg; path = ShopMe/departments/produce.jpg; sourceTree = "<group>"; };
+		BB5721A31FC546530073DDA8 /* snacks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snacks.jpg; path = ShopMe/departments/snacks.jpg; sourceTree = "<group>"; };
+		BB5721AD1FC546900073DDA8 /* costco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = costco.png; sourceTree = "<group>"; };
+		BB5721AE1FC546900073DDA8 /* wheatsville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheatsville.png; sourceTree = "<group>"; };
+		BB5721AF1FC546900073DDA8 /* whole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whole.png; sourceTree = "<group>"; };
+		BB5721B01FC546900073DDA8 /* heb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heb.png; sourceTree = "<group>"; };
+		BB5721B11FC546900073DDA8 /* central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = central.png; sourceTree = "<group>"; };
+		BB5721B21FC546900073DDA8 /* cvs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvs.png; sourceTree = "<group>"; };
 		BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListTableViewController.swift; sourceTree = "<group>"; };
 		BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
@@ -92,8 +134,13 @@
 			isa = PBXGroup;
 			children = (
 				BB2F94BD1FA39FC7000335BF /* AppDelegate.swift */,
+				BB57218E1FC53B150073DDA8 /* StoreViewController.swift */,
+				BB5721931FC53B160073DDA8 /* DepartmentViewController.swift */,
+				BB5721901FC53B150073DDA8 /* myCell.swift */,
+				BB57218F1FC53B150073DDA8 /* myCell2.swift */,
 				BB520A421FA85C5800ACF8EB /* LoginViewController.swift */,
 				BB520A3C1FA85BE700ACF8EB /* LoggedInVC.swift */,
+				BB57218A1FC218BB0073DDA8 /* customCell.swift */,
 				BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */,
 				BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */,
 				BB2F94D71FA50494000335BF /* ListTableViewController.swift */,
@@ -104,13 +151,47 @@
 				BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */,
 				BB2F94C41FA39FC7000335BF /* Assets.xcassets */,
 				BB2F94C11FA39FC7000335BF /* Main.storyboard */,
+				BB5721861FC0EF0F0073DDA8 /* Item.swift */,
+				BB57218C1FC4F7960073DDA8 /* List.swift */,
 				BB2F94C61FA39FC7000335BF /* LaunchScreen.storyboard */,
 				BB520A3A1FA85A6C00ACF8EB /* GoogleService-Info.plist */,
 				BB2F94C91FA39FC7000335BF /* Info.plist */,
 				BB520A371FA8597500ACF8EB /* Model.xcdatamodeld */,
+				BB5721AC1FC546810073DDA8 /* logos */,
+				BB57219B1FC546430073DDA8 /* departments */,
 			);
 			path = ShopMe;
 			sourceTree = "<group>";
+		};
+		BB57219B1FC546430073DDA8 /* departments */ = {
+			isa = PBXGroup;
+			children = (
+				BB57219D1FC546520073DDA8 /* breakfast.jpg */,
+				BB5721A11FC546520073DDA8 /* dairy.jpg */,
+				BB57219C1FC546520073DDA8 /* frozen.jpg */,
+				BB5721A01FC546520073DDA8 /* meat.jpg */,
+				BB57219F1FC546520073DDA8 /* pantry.jpg */,
+				BB57219E1FC546520073DDA8 /* pasta.jpg */,
+				BB5721A21FC546520073DDA8 /* produce.jpg */,
+				BB5721A31FC546530073DDA8 /* snacks.jpg */,
+			);
+			name = departments;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BB5721AC1FC546810073DDA8 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				BB5721B11FC546900073DDA8 /* central.png */,
+				BB5721AD1FC546900073DDA8 /* costco.png */,
+				BB5721B21FC546900073DDA8 /* cvs.png */,
+				BB5721B01FC546900073DDA8 /* heb.png */,
+				BB5721AE1FC546900073DDA8 /* wheatsville.png */,
+				BB5721AF1FC546900073DDA8 /* whole.png */,
+			);
+			name = logos;
+			path = /Users/joannawu/Documents/GitHub/ShopMe/ShopMe/logos;
+			sourceTree = "<absolute>";
 		};
 		D6E2153EBD5ABAD52AD8483F /* Pods */ = {
 			isa = PBXGroup;
@@ -183,10 +264,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5721B41FC546910073DDA8 /* wheatsville.png in Resources */,
+				BB5721B71FC546910073DDA8 /* central.png in Resources */,
+				BB5721A81FC546530073DDA8 /* meat.jpg in Resources */,
+				BB5721A91FC546530073DDA8 /* dairy.jpg in Resources */,
+				BB5721A41FC546530073DDA8 /* frozen.jpg in Resources */,
 				BB2F94C81FA39FC7000335BF /* LaunchScreen.storyboard in Resources */,
+				BB5721AB1FC546530073DDA8 /* snacks.jpg in Resources */,
+				BB5721B31FC546910073DDA8 /* costco.png in Resources */,
 				BB520A3B1FA85A6C00ACF8EB /* GoogleService-Info.plist in Resources */,
+				BB5721A71FC546530073DDA8 /* pantry.jpg in Resources */,
+				BB5721B81FC546910073DDA8 /* cvs.png in Resources */,
+				BB5721A61FC546530073DDA8 /* pasta.jpg in Resources */,
+				BB5721B51FC546910073DDA8 /* whole.png in Resources */,
 				BB2F94C51FA39FC7000335BF /* Assets.xcassets in Resources */,
 				BB2F94C31FA39FC7000335BF /* Main.storyboard in Resources */,
+				BB5721A51FC546530073DDA8 /* breakfast.jpg in Resources */,
+				BB5721AA1FC546530073DDA8 /* produce.jpg in Resources */,
+				BB5721B61FC546910073DDA8 /* heb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,17 +352,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5721951FC53B160073DDA8 /* myCell2.swift in Sources */,
+				BB5721961FC53B160073DDA8 /* myCell.swift in Sources */,
+				BB5721941FC53B160073DDA8 /* StoreViewController.swift in Sources */,
 				BB2F94BE1FA39FC7000335BF /* AppDelegate.swift in Sources */,
 				BB520A301FA8538400ACF8EB /* LocationSearchTable.swift in Sources */,
+				BB57218B1FC218BB0073DDA8 /* customCell.swift in Sources */,
 				BB9F4E891FA8E40C00C69C81 /* AddListTableViewController.swift in Sources */,
 				BB2F94D41FA3A212000335BF /* BrowseViewController.swift in Sources */,
 				BB520A361FA8565600ACF8EB /* MapViewController.swift in Sources */,
 				BB881DB21FA7CDA00018FFA9 /* ListTableViewCell.swift in Sources */,
 				BB2F94D81FA50494000335BF /* ListTableViewController.swift in Sources */,
+				BB57218D1FC4F7960073DDA8 /* List.swift in Sources */,
+				BB5721871FC0EF0F0073DDA8 /* Item.swift in Sources */,
 				BB520A391FA8597500ACF8EB /* Model.xcdatamodeld in Sources */,
 				BB520A341FA855F400ACF8EB /* Artwork.swift in Sources */,
 				BB520A3D1FA85BE800ACF8EB /* LoggedInVC.swift in Sources */,
 				BBBE4AE81FA589DC00BE8598 /* SettingsTableViewController.swift in Sources */,
+				BB5721991FC53B160073DDA8 /* DepartmentViewController.swift in Sources */,
 				BB520A431FA85C5800ACF8EB /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

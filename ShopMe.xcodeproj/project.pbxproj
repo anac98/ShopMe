@@ -35,12 +35,6 @@
 		BB5721A91FC546530073DDA8 /* dairy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5721A11FC546520073DDA8 /* dairy.jpg */; };
 		BB5721AA1FC546530073DDA8 /* produce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5721A21FC546520073DDA8 /* produce.jpg */; };
 		BB5721AB1FC546530073DDA8 /* snacks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5721A31FC546530073DDA8 /* snacks.jpg */; };
-		BB5721B31FC546910073DDA8 /* costco.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721AD1FC546900073DDA8 /* costco.png */; };
-		BB5721B41FC546910073DDA8 /* wheatsville.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721AE1FC546900073DDA8 /* wheatsville.png */; };
-		BB5721B51FC546910073DDA8 /* whole.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721AF1FC546900073DDA8 /* whole.png */; };
-		BB5721B61FC546910073DDA8 /* heb.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721B01FC546900073DDA8 /* heb.png */; };
-		BB5721B71FC546910073DDA8 /* central.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721B11FC546900073DDA8 /* central.png */; };
-		BB5721B81FC546910073DDA8 /* cvs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB5721B21FC546900073DDA8 /* cvs.png */; };
 		BB881DB21FA7CDA00018FFA9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */; };
 		BB9F4E891FA8E40C00C69C81 /* AddListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */; };
 		BBBE4AE81FA589DC00BE8598 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */; };
@@ -48,6 +42,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47E32B7D1FD79DBE00B5E093 /* costco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = costco.png; path = ShopMe/logos/costco.png; sourceTree = SOURCE_ROOT; };
+		47E32B7E1FD79DBE00B5E093 /* cvs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cvs.png; path = ShopMe/logos/cvs.png; sourceTree = SOURCE_ROOT; };
+		47E32B7F1FD79DBE00B5E093 /* whole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whole.png; path = ShopMe/logos/whole.png; sourceTree = SOURCE_ROOT; };
+		47E32B801FD79DBE00B5E093 /* central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = central.png; path = ShopMe/logos/central.png; sourceTree = SOURCE_ROOT; };
+		47E32B811FD79DBE00B5E093 /* heb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heb.png; path = ShopMe/logos/heb.png; sourceTree = SOURCE_ROOT; };
+		47E32B821FD79DBE00B5E093 /* wheatsville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheatsville.png; path = ShopMe/logos/wheatsville.png; sourceTree = SOURCE_ROOT; };
 		95000E9AAF2601BE9AD46D6E /* Pods-ShopMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopMe/Pods-ShopMe.debug.xcconfig"; sourceTree = "<group>"; };
 		B3380143DDC2D4BE2D10166D /* Pods-ShopMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopMe/Pods-ShopMe.release.xcconfig"; sourceTree = "<group>"; };
 		BB2F94BA1FA39FC7000335BF /* ShopMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,12 +80,6 @@
 		BB5721A11FC546520073DDA8 /* dairy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dairy.jpg; path = ShopMe/departments/dairy.jpg; sourceTree = "<group>"; };
 		BB5721A21FC546520073DDA8 /* produce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = produce.jpg; path = ShopMe/departments/produce.jpg; sourceTree = "<group>"; };
 		BB5721A31FC546530073DDA8 /* snacks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snacks.jpg; path = ShopMe/departments/snacks.jpg; sourceTree = "<group>"; };
-		BB5721AD1FC546900073DDA8 /* costco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = costco.png; sourceTree = "<group>"; };
-		BB5721AE1FC546900073DDA8 /* wheatsville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheatsville.png; sourceTree = "<group>"; };
-		BB5721AF1FC546900073DDA8 /* whole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whole.png; sourceTree = "<group>"; };
-		BB5721B01FC546900073DDA8 /* heb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heb.png; sourceTree = "<group>"; };
-		BB5721B11FC546900073DDA8 /* central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = central.png; sourceTree = "<group>"; };
-		BB5721B21FC546900073DDA8 /* cvs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvs.png; sourceTree = "<group>"; };
 		BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListTableViewController.swift; sourceTree = "<group>"; };
 		BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
@@ -182,12 +176,12 @@
 		BB5721AC1FC546810073DDA8 /* logos */ = {
 			isa = PBXGroup;
 			children = (
-				BB5721B11FC546900073DDA8 /* central.png */,
-				BB5721AD1FC546900073DDA8 /* costco.png */,
-				BB5721B21FC546900073DDA8 /* cvs.png */,
-				BB5721B01FC546900073DDA8 /* heb.png */,
-				BB5721AE1FC546900073DDA8 /* wheatsville.png */,
-				BB5721AF1FC546900073DDA8 /* whole.png */,
+				47E32B801FD79DBE00B5E093 /* central.png */,
+				47E32B7D1FD79DBE00B5E093 /* costco.png */,
+				47E32B7E1FD79DBE00B5E093 /* cvs.png */,
+				47E32B811FD79DBE00B5E093 /* heb.png */,
+				47E32B821FD79DBE00B5E093 /* wheatsville.png */,
+				47E32B7F1FD79DBE00B5E093 /* whole.png */,
 			);
 			name = logos;
 			path = /Users/joannawu/Documents/GitHub/ShopMe/ShopMe/logos;
@@ -264,24 +258,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB5721B41FC546910073DDA8 /* wheatsville.png in Resources */,
-				BB5721B71FC546910073DDA8 /* central.png in Resources */,
 				BB5721A81FC546530073DDA8 /* meat.jpg in Resources */,
 				BB5721A91FC546530073DDA8 /* dairy.jpg in Resources */,
 				BB5721A41FC546530073DDA8 /* frozen.jpg in Resources */,
 				BB2F94C81FA39FC7000335BF /* LaunchScreen.storyboard in Resources */,
 				BB5721AB1FC546530073DDA8 /* snacks.jpg in Resources */,
-				BB5721B31FC546910073DDA8 /* costco.png in Resources */,
 				BB520A3B1FA85A6C00ACF8EB /* GoogleService-Info.plist in Resources */,
 				BB5721A71FC546530073DDA8 /* pantry.jpg in Resources */,
-				BB5721B81FC546910073DDA8 /* cvs.png in Resources */,
 				BB5721A61FC546530073DDA8 /* pasta.jpg in Resources */,
-				BB5721B51FC546910073DDA8 /* whole.png in Resources */,
 				BB2F94C51FA39FC7000335BF /* Assets.xcassets in Resources */,
 				BB2F94C31FA39FC7000335BF /* Main.storyboard in Resources */,
 				BB5721A51FC546530073DDA8 /* breakfast.jpg in Resources */,
 				BB5721AA1FC546530073DDA8 /* produce.jpg in Resources */,
-				BB5721B61FC546910073DDA8 /* heb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

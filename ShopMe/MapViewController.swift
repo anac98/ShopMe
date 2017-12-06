@@ -45,14 +45,6 @@ class MapViewController : UIViewController {
     }
     var resultSearchController:UISearchController? = nil
     var selectedPin:MKPlacemark? = nil
-    
-    func getDirections(){
-        if let selectedPin = selectedPin {
-            let mapItem = MKMapItem(placemark: selectedPin)
-            let launchOptions = [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving]
-            mapItem.openInMaps(launchOptions: launchOptions)
-        }
-    }
 }
 
 extension MapViewController : CLLocationManagerDelegate {
@@ -108,13 +100,19 @@ extension MapViewController : MKMapViewDelegate {
         pinView?.canShowCallout = true
         let smallSquare = CGSize(width: 30, height: 30)
         let button = UIButton(frame: CGRect(origin: CGPoint.zero, size: smallSquare))
-        button.setBackgroundImage(UIImage(named: "car"), for: [])//replaced .Normal with []
+        button.setBackgroundImage(UIImage(named: "car.png"), for: [])//replaced .Normal with []
         button.addTarget(self, action: Selector(("getDirections")), for: .touchUpInside)
         pinView?.leftCalloutAccessoryView = button
         return pinView
     }
+    
+    func getDirections(){
+        if let selectedPin = selectedPin {
+            let mapItem = MKMapItem(placemark: selectedPin)
+            let launchOptions = [MKLaunchOptionsDirectionsModeKey : MKLaunchOptionsDirectionsModeDriving] // this line is not working properly to call the driving directions from the API
+            mapItem.openInMaps(launchOptions: launchOptions)
+        }
+    }
 }
-
-
 //will need to add the stuff from info on joannas, create the delegate from the map view to the blinky yellow thing at the top and create the vc anyways and pair it with the vc class and create an outlet
 

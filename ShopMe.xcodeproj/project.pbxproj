@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1324611FD9E16500C70BFD /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1324601FD9E16500C70BFD /* ItemTableViewCell.swift */; };
+		BB2777841FD9FE5B00824533 /* wheatsville.png in Resources */ = {isa = PBXBuildFile; fileRef = BB27777E1FD9FE5B00824533 /* wheatsville.png */; };
+		BB2777851FD9FE5B00824533 /* central.png in Resources */ = {isa = PBXBuildFile; fileRef = BB27777F1FD9FE5B00824533 /* central.png */; };
+		BB2777861FD9FE5B00824533 /* whole.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2777801FD9FE5B00824533 /* whole.png */; };
+		BB2777871FD9FE5B00824533 /* costco.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2777811FD9FE5B00824533 /* costco.png */; };
+		BB2777881FD9FE5B00824533 /* cvs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2777821FD9FE5B00824533 /* cvs.png */; };
+		BB2777891FD9FE5B00824533 /* heb.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2777831FD9FE5B00824533 /* heb.png */; };
 		BB2F94BE1FA39FC7000335BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F94BD1FA39FC7000335BF /* AppDelegate.swift */; };
 		BB2F94C31FA39FC7000335BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F94C11FA39FC7000335BF /* Main.storyboard */; };
 		BB2F94C51FA39FC7000335BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2F94C41FA39FC7000335BF /* Assets.xcassets */; };
@@ -42,14 +49,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47E32B7D1FD79DBE00B5E093 /* costco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = costco.png; path = ShopMe/logos/costco.png; sourceTree = SOURCE_ROOT; };
-		47E32B7E1FD79DBE00B5E093 /* cvs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cvs.png; path = ShopMe/logos/cvs.png; sourceTree = SOURCE_ROOT; };
-		47E32B7F1FD79DBE00B5E093 /* whole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whole.png; path = ShopMe/logos/whole.png; sourceTree = SOURCE_ROOT; };
-		47E32B801FD79DBE00B5E093 /* central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = central.png; path = ShopMe/logos/central.png; sourceTree = SOURCE_ROOT; };
-		47E32B811FD79DBE00B5E093 /* heb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heb.png; path = ShopMe/logos/heb.png; sourceTree = SOURCE_ROOT; };
-		47E32B821FD79DBE00B5E093 /* wheatsville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheatsville.png; path = ShopMe/logos/wheatsville.png; sourceTree = SOURCE_ROOT; };
 		95000E9AAF2601BE9AD46D6E /* Pods-ShopMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopMe/Pods-ShopMe.debug.xcconfig"; sourceTree = "<group>"; };
 		B3380143DDC2D4BE2D10166D /* Pods-ShopMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopMe/Pods-ShopMe.release.xcconfig"; sourceTree = "<group>"; };
+		BB1324601FD9E16500C70BFD /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		BB27777E1FD9FE5B00824533 /* wheatsville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheatsville.png; sourceTree = "<group>"; };
+		BB27777F1FD9FE5B00824533 /* central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = central.png; sourceTree = "<group>"; };
+		BB2777801FD9FE5B00824533 /* whole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whole.png; sourceTree = "<group>"; };
+		BB2777811FD9FE5B00824533 /* costco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = costco.png; sourceTree = "<group>"; };
+		BB2777821FD9FE5B00824533 /* cvs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvs.png; sourceTree = "<group>"; };
+		BB2777831FD9FE5B00824533 /* heb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heb.png; sourceTree = "<group>"; };
 		BB2F94BA1FA39FC7000335BF /* ShopMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2F94BD1FA39FC7000335BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB2F94C21FA39FC7000335BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -135,6 +143,7 @@
 				BB520A421FA85C5800ACF8EB /* LoginViewController.swift */,
 				BB520A3C1FA85BE700ACF8EB /* LoggedInVC.swift */,
 				BB57218A1FC218BB0073DDA8 /* customCell.swift */,
+				BB1324601FD9E16500C70BFD /* ItemTableViewCell.swift */,
 				BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */,
 				BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */,
 				BB2F94D71FA50494000335BF /* ListTableViewController.swift */,
@@ -176,12 +185,12 @@
 		BB5721AC1FC546810073DDA8 /* logos */ = {
 			isa = PBXGroup;
 			children = (
-				47E32B801FD79DBE00B5E093 /* central.png */,
-				47E32B7D1FD79DBE00B5E093 /* costco.png */,
-				47E32B7E1FD79DBE00B5E093 /* cvs.png */,
-				47E32B811FD79DBE00B5E093 /* heb.png */,
-				47E32B821FD79DBE00B5E093 /* wheatsville.png */,
-				47E32B7F1FD79DBE00B5E093 /* whole.png */,
+				BB27777F1FD9FE5B00824533 /* central.png */,
+				BB2777811FD9FE5B00824533 /* costco.png */,
+				BB2777821FD9FE5B00824533 /* cvs.png */,
+				BB2777831FD9FE5B00824533 /* heb.png */,
+				BB27777E1FD9FE5B00824533 /* wheatsville.png */,
+				BB2777801FD9FE5B00824533 /* whole.png */,
 			);
 			name = logos;
 			path = /Users/joannawu/Documents/GitHub/ShopMe/ShopMe/logos;
@@ -261,11 +270,17 @@
 				BB5721A81FC546530073DDA8 /* meat.jpg in Resources */,
 				BB5721A91FC546530073DDA8 /* dairy.jpg in Resources */,
 				BB5721A41FC546530073DDA8 /* frozen.jpg in Resources */,
+				BB2777891FD9FE5B00824533 /* heb.png in Resources */,
+				BB2777851FD9FE5B00824533 /* central.png in Resources */,
+				BB2777841FD9FE5B00824533 /* wheatsville.png in Resources */,
+				BB2777861FD9FE5B00824533 /* whole.png in Resources */,
 				BB2F94C81FA39FC7000335BF /* LaunchScreen.storyboard in Resources */,
 				BB5721AB1FC546530073DDA8 /* snacks.jpg in Resources */,
+				BB2777871FD9FE5B00824533 /* costco.png in Resources */,
 				BB520A3B1FA85A6C00ACF8EB /* GoogleService-Info.plist in Resources */,
 				BB5721A71FC546530073DDA8 /* pantry.jpg in Resources */,
 				BB5721A61FC546530073DDA8 /* pasta.jpg in Resources */,
+				BB2777881FD9FE5B00824533 /* cvs.png in Resources */,
 				BB2F94C51FA39FC7000335BF /* Assets.xcassets in Resources */,
 				BB2F94C31FA39FC7000335BF /* Main.storyboard in Resources */,
 				BB5721A51FC546530073DDA8 /* breakfast.jpg in Resources */,
@@ -352,6 +367,7 @@
 				BB881DB21FA7CDA00018FFA9 /* ListTableViewCell.swift in Sources */,
 				BB2F94D81FA50494000335BF /* ListTableViewController.swift in Sources */,
 				BB57218D1FC4F7960073DDA8 /* List.swift in Sources */,
+				BB1324611FD9E16500C70BFD /* ItemTableViewCell.swift in Sources */,
 				BB5721871FC0EF0F0073DDA8 /* Item.swift in Sources */,
 				BB520A391FA8597500ACF8EB /* Model.xcdatamodeld in Sources */,
 				BB520A341FA855F400ACF8EB /* Artwork.swift in Sources */,

@@ -14,10 +14,10 @@ class ListTableViewController: UITableViewController {
     
     @IBOutlet var listTable: UITableView!
     var titleTextField: UITextField? = nil
+   // var quantityTextField: UITextField? = nil
     var alertController: UIAlertController? = nil
     var lists = [List]()
     var lTitle: String?
-    
     var user: User!
     var ref: DatabaseReference!
     private var databaseHandle: DatabaseHandle!
@@ -30,9 +30,10 @@ class ListTableViewController: UITableViewController {
         
         tableView.separatorInset = UIEdgeInsets.zero
         tableView.layoutMargins = UIEdgeInsets.zero
-        navigationItem.title = "Shopping Lists"
+        navigationItem.title = "Your Shopping List"
         startObservingDatabase()
         //cell.layoutMargins = UIEdgeInsets.Zero
+        //self.view.addGestureRecognizer(UIGestureRecognizer(target:self.view, action: #selector(UIView.endEditing(_:))))
 
 
         // Uncomment the following line to preserve selection between presentations
@@ -46,7 +47,7 @@ class ListTableViewController: UITableViewController {
     }
     
     func getListName() {
-        self.alertController = UIAlertController(title: "List Name", message: "Enter a title for your shopping list", preferredStyle: UIAlertControllerStyle.alert)
+        self.alertController = UIAlertController(title: "Item Name", message: "Enter an item to add to your shopping list", preferredStyle: UIAlertControllerStyle.alert)
         let ok = UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: { (action) -> Void in
             let userInput = self.alertController!.textFields![0].text
             if userInput!.isEmpty {
@@ -62,7 +63,7 @@ class ListTableViewController: UITableViewController {
         self.alertController!.addTextField { (textField) -> Void in
             // Enter the textfield customization code here.
             self.titleTextField = textField
-            self.titleTextField?.placeholder = "Enter Shopping List Title"
+            self.titleTextField?.placeholder = "Enter Item Name"
         }
         
         present(self.alertController!, animated: true, completion: nil)
@@ -86,14 +87,23 @@ class ListTableViewController: UITableViewController {
         return lists.count
         
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCellAccessoryType.checkmark {
+            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCellAccessoryType.none
+        }
+        else {
+            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCellAccessoryType.checkmark
+        }
+    }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "listName", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "listName", for: indexPath) as! ItemTableViewCell
         //let list = lists[indexPath.row]
         let rowNumber = indexPath.row
-        cell.textLabel?.text = lists[rowNumber].title
-        cell.detailTextLabel?.text = "11/21"
+        cell.itemName.text = lists[rowNumber].title
+        //cell.detailTextLabel?.text = "11/21"
 
         // Configure the cell...
         return cell

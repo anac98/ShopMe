@@ -13,11 +13,13 @@ import FirebaseAuth
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var createAccount: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
         // Do any additional setup after loading the view, typically from a nib.
+        createAccount.setTitleColor(UIColor.gray, for: .disabled)
     }
     
     
@@ -38,6 +40,8 @@ class LoginViewController: UIViewController {
                 
             })
         }
+        createAccount.isEnabled = false
+        //im currently just greying out the button so you can tell that something changed
     }
     
     

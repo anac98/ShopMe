@@ -581,6 +581,7 @@
                         <viewLayoutGuide key="safeArea" id="igN-ve-lvD"/>
                     </view>
                     <connections>
+                        <outlet property="createAccount" destination="EcV-jv-4Bq" id="SYf-mL-o0L"/>
                         <outlet property="emailTextField" destination="w72-s4-2Xt" id="ckf-hP-Tep"/>
                         <outlet property="passwordTextField" destination="Ydz-y7-dMc" id="i8q-gg-7uo"/>
                     </connections>

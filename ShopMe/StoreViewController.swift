@@ -23,6 +23,7 @@ class StoreViewController: UIViewController, UICollectionViewDataSource, UIColle
         layout.minimumInteritemSpacing = 2
         layout.minimumLineSpacing = 2
         myCollectionView.collectionViewLayout = layout
+        self.navigationController?.navigationBar.titleTextAttributes = [ NSAttributedStringKey.font: UIFont(name: "Avenir Next Condensed", size: 20)!]
     }
     
     override func didReceiveMemoryWarning() {

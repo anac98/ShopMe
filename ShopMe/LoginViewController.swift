@@ -13,13 +13,11 @@ import FirebaseAuth
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var createAccount: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
         // Do any additional setup after loading the view, typically from a nib.
-        createAccount.setTitleColor(UIColor.gray, for: .disabled)
     }
     
     
@@ -29,20 +27,18 @@ class LoginViewController: UIViewController {
         }
     }
     
-    @IBAction func createAccountTapped(_ sender: Any) {
-        if let email = emailTextField.text, let password = passwordTextField.text {
-            Auth.auth().createUser(withEmail: email, password: password, completion: { user, error in
-                if let firebaseError = error {
-                    print(firebaseError.localizedDescription)
-                    return
-                }
-                self.presentLoggedInScreen()
-                
-            })
-        }
-        createAccount.isEnabled = false
-        //im currently just greying out the button so you can tell that something changed
-    }
+//    @IBAction func createAccountTapped(_ sender: Any) {
+//        if let email = emailTextField.text, let password = passwordTextField.text {
+//            Auth.auth().createUser(withEmail: email, password: password, completion: { user, error in
+//                if let firebaseError = error {
+//                    print(firebaseError.localizedDescription)
+//                    return
+//                }
+//                self.presentLoggedInScreen()
+//                
+//            })
+//        }
+//    }
     
     
     @IBAction func loginTapped(_ sender: Any) {

@@ -8,17 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BB1324611FD9E16500C70BFD /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1324601FD9E16500C70BFD /* ItemTableViewCell.swift */; };
-		BB2777841FD9FE5B00824533 /* wheatsville.png in Resources */ = {isa = PBXBuildFile; fileRef = BB27777E1FD9FE5B00824533 /* wheatsville.png */; };
-		BB2777851FD9FE5B00824533 /* central.png in Resources */ = {isa = PBXBuildFile; fileRef = BB27777F1FD9FE5B00824533 /* central.png */; };
-		BB2777861FD9FE5B00824533 /* whole.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2777801FD9FE5B00824533 /* whole.png */; };
-		BB2777871FD9FE5B00824533 /* costco.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2777811FD9FE5B00824533 /* costco.png */; };
-		BB2777881FD9FE5B00824533 /* cvs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2777821FD9FE5B00824533 /* cvs.png */; };
-		BB2777891FD9FE5B00824533 /* heb.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2777831FD9FE5B00824533 /* heb.png */; };
+		BB27778B1FDA134400824533 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27778A1FDA134400824533 /* ProductsViewController.swift */; };
+		BB27778D1FDA145500824533 /* myCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27778C1FDA145500824533 /* myCell3.swift */; };
+		BB2777A01FDA185400824533 /* ItemDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB27779F1FDA185400824533 /* ItemDescViewController.swift */; };
+		BB2777AA1FDA230000824533 /* CreateAccViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2777A91FDA230000824533 /* CreateAccViewController.swift */; };
 		BB2F94BE1FA39FC7000335BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F94BD1FA39FC7000335BF /* AppDelegate.swift */; };
 		BB2F94C31FA39FC7000335BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F94C11FA39FC7000335BF /* Main.storyboard */; };
 		BB2F94C51FA39FC7000335BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2F94C41FA39FC7000335BF /* Assets.xcassets */; };
 		BB2F94C81FA39FC7000335BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2F94C61FA39FC7000335BF /* LaunchScreen.storyboard */; };
-		BB2F94D41FA3A212000335BF /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F94D31FA3A212000335BF /* BrowseViewController.swift */; };
 		BB2F94D81FA50494000335BF /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2F94D71FA50494000335BF /* ListTableViewController.swift */; };
 		BB520A301FA8538400ACF8EB /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A2F1FA8538400ACF8EB /* LocationSearchTable.swift */; };
 		BB520A341FA855F400ACF8EB /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB520A331FA855F400ACF8EB /* Artwork.swift */; };
@@ -44,6 +41,23 @@
 		BB5721AB1FC546530073DDA8 /* snacks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB5721A31FC546530073DDA8 /* snacks.jpg */; };
 		BB881DB21FA7CDA00018FFA9 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */; };
 		BB9F4E891FA8E40C00C69C81 /* AddListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */; };
+		BBBCE8E21FDC8B9F00B2164A /* heb.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE8DC1FDC8B9E00B2164A /* heb.png */; };
+		BBBCE8E31FDC8B9F00B2164A /* cvs.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE8DD1FDC8B9E00B2164A /* cvs.png */; };
+		BBBCE8E41FDC8B9F00B2164A /* whole.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE8DE1FDC8B9E00B2164A /* whole.png */; };
+		BBBCE8E51FDC8B9F00B2164A /* central.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE8DF1FDC8B9E00B2164A /* central.png */; };
+		BBBCE8E61FDC8B9F00B2164A /* costco.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE8E01FDC8B9F00B2164A /* costco.png */; };
+		BBBCE8E71FDC8B9F00B2164A /* wheatsville.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE8E11FDC8B9F00B2164A /* wheatsville.png */; };
+		BBBCE90B1FDC8C4200B2164A /* spinach.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9001FDC8C4100B2164A /* spinach.png */; };
+		BBBCE90C1FDC8C4200B2164A /* brussels.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9011FDC8C4100B2164A /* brussels.png */; };
+		BBBCE90D1FDC8C4200B2164A /* dragonfruit.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9021FDC8C4100B2164A /* dragonfruit.png */; };
+		BBBCE90E1FDC8C4200B2164A /* carrots.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9031FDC8C4100B2164A /* carrots.png */; };
+		BBBCE90F1FDC8C4200B2164A /* broccoli.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9041FDC8C4100B2164A /* broccoli.png */; };
+		BBBCE9101FDC8C4200B2164A /* mango.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9051FDC8C4100B2164A /* mango.png */; };
+		BBBCE9111FDC8C4200B2164A /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9061FDC8C4100B2164A /* banana.png */; };
+		BBBCE9121FDC8C4200B2164A /* pomegranate.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9071FDC8C4100B2164A /* pomegranate.png */; };
+		BBBCE9131FDC8C4200B2164A /* celery.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9081FDC8C4100B2164A /* celery.png */; };
+		BBBCE9141FDC8C4200B2164A /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE9091FDC8C4100B2164A /* apple.png */; };
+		BBBCE9151FDC8C4200B2164A /* milk.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBCE90A1FDC8C4100B2164A /* milk.png */; };
 		BBBE4AE81FA589DC00BE8598 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */; };
 		E0DC5AF431314F4E31B6FFDC /* Pods_ShopMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE6848E35543F7C410D6C49 /* Pods_ShopMe.framework */; };
 /* End PBXBuildFile section */
@@ -52,19 +66,16 @@
 		95000E9AAF2601BE9AD46D6E /* Pods-ShopMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopMe/Pods-ShopMe.debug.xcconfig"; sourceTree = "<group>"; };
 		B3380143DDC2D4BE2D10166D /* Pods-ShopMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopMe/Pods-ShopMe.release.xcconfig"; sourceTree = "<group>"; };
 		BB1324601FD9E16500C70BFD /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
-		BB27777E1FD9FE5B00824533 /* wheatsville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheatsville.png; sourceTree = "<group>"; };
-		BB27777F1FD9FE5B00824533 /* central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = central.png; sourceTree = "<group>"; };
-		BB2777801FD9FE5B00824533 /* whole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whole.png; sourceTree = "<group>"; };
-		BB2777811FD9FE5B00824533 /* costco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = costco.png; sourceTree = "<group>"; };
-		BB2777821FD9FE5B00824533 /* cvs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvs.png; sourceTree = "<group>"; };
-		BB2777831FD9FE5B00824533 /* heb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heb.png; sourceTree = "<group>"; };
+		BB27778A1FDA134400824533 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		BB27778C1FDA145500824533 /* myCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell3.swift; sourceTree = "<group>"; };
+		BB27779F1FDA185400824533 /* ItemDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDescViewController.swift; sourceTree = "<group>"; };
+		BB2777A91FDA230000824533 /* CreateAccViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccViewController.swift; sourceTree = "<group>"; };
 		BB2F94BA1FA39FC7000335BF /* ShopMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2F94BD1FA39FC7000335BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB2F94C21FA39FC7000335BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB2F94C41FA39FC7000335BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB2F94C71FA39FC7000335BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB2F94C91FA39FC7000335BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB2F94D31FA3A212000335BF /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
 		BB2F94D71FA50494000335BF /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		BB520A2F1FA8538400ACF8EB /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		BB520A331FA855F400ACF8EB /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
@@ -90,6 +101,23 @@
 		BB5721A31FC546530073DDA8 /* snacks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snacks.jpg; path = ShopMe/departments/snacks.jpg; sourceTree = "<group>"; };
 		BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListTableViewController.swift; sourceTree = "<group>"; };
+		BBBCE8DC1FDC8B9E00B2164A /* heb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heb.png; path = ../../../../../Desktop/heb.png; sourceTree = "<group>"; };
+		BBBCE8DD1FDC8B9E00B2164A /* cvs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cvs.png; path = ../../../../../Desktop/cvs.png; sourceTree = "<group>"; };
+		BBBCE8DE1FDC8B9E00B2164A /* whole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whole.png; path = ../../../../../Desktop/whole.png; sourceTree = "<group>"; };
+		BBBCE8DF1FDC8B9E00B2164A /* central.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = central.png; path = ../../../../../Desktop/central.png; sourceTree = "<group>"; };
+		BBBCE8E01FDC8B9F00B2164A /* costco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = costco.png; path = ../../../../../Desktop/costco.png; sourceTree = "<group>"; };
+		BBBCE8E11FDC8B9F00B2164A /* wheatsville.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheatsville.png; path = ../../../../../Desktop/wheatsville.png; sourceTree = "<group>"; };
+		BBBCE9001FDC8C4100B2164A /* spinach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spinach.png; path = ShopMe/produce/spinach.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9011FDC8C4100B2164A /* brussels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brussels.png; path = ShopMe/produce/brussels.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9021FDC8C4100B2164A /* dragonfruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragonfruit.png; path = ShopMe/produce/dragonfruit.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9031FDC8C4100B2164A /* carrots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carrots.png; path = ShopMe/produce/carrots.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9041FDC8C4100B2164A /* broccoli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = broccoli.png; path = ShopMe/produce/broccoli.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9051FDC8C4100B2164A /* mango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mango.png; path = ShopMe/produce/mango.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9061FDC8C4100B2164A /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = banana.png; path = ShopMe/produce/banana.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9071FDC8C4100B2164A /* pomegranate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pomegranate.png; path = ShopMe/produce/pomegranate.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9081FDC8C4100B2164A /* celery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = celery.png; path = ShopMe/produce/celery.png; sourceTree = SOURCE_ROOT; };
+		BBBCE9091FDC8C4100B2164A /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ShopMe/produce/apple.png; sourceTree = SOURCE_ROOT; };
+		BBBCE90A1FDC8C4100B2164A /* milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = milk.png; path = ShopMe/produce/milk.png; sourceTree = SOURCE_ROOT; };
 		BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		FEE6848E35543F7C410D6C49 /* Pods_ShopMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +140,25 @@
 				FEE6848E35543F7C410D6C49 /* Pods_ShopMe.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB2777901FDA154500824533 /* produce */ = {
+			isa = PBXGroup;
+			children = (
+				BBBCE9091FDC8C4100B2164A /* apple.png */,
+				BBBCE9061FDC8C4100B2164A /* banana.png */,
+				BBBCE9041FDC8C4100B2164A /* broccoli.png */,
+				BBBCE9011FDC8C4100B2164A /* brussels.png */,
+				BBBCE9031FDC8C4100B2164A /* carrots.png */,
+				BBBCE9081FDC8C4100B2164A /* celery.png */,
+				BBBCE9021FDC8C4100B2164A /* dragonfruit.png */,
+				BBBCE9051FDC8C4100B2164A /* mango.png */,
+				BBBCE90A1FDC8C4100B2164A /* milk.png */,
+				BBBCE9071FDC8C4100B2164A /* pomegranate.png */,
+				BBBCE9001FDC8C4100B2164A /* spinach.png */,
+			);
+			name = produce;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		BB2F94B11FA39FC7000335BF = {
@@ -140,9 +187,12 @@
 				BB5721931FC53B160073DDA8 /* DepartmentViewController.swift */,
 				BB5721901FC53B150073DDA8 /* myCell.swift */,
 				BB57218F1FC53B150073DDA8 /* myCell2.swift */,
+				BB27778C1FDA145500824533 /* myCell3.swift */,
 				BB520A421FA85C5800ACF8EB /* LoginViewController.swift */,
 				BB520A3C1FA85BE700ACF8EB /* LoggedInVC.swift */,
 				BB57218A1FC218BB0073DDA8 /* customCell.swift */,
+				BB27778A1FDA134400824533 /* ProductsViewController.swift */,
+				BB2777A91FDA230000824533 /* CreateAccViewController.swift */,
 				BB1324601FD9E16500C70BFD /* ItemTableViewCell.swift */,
 				BB881DB11FA7CDA00018FFA9 /* ListTableViewCell.swift */,
 				BB9F4E881FA8E40C00C69C81 /* AddListTableViewController.swift */,
@@ -150,16 +200,17 @@
 				BB520A351FA8565600ACF8EB /* MapViewController.swift */,
 				BB520A331FA855F400ACF8EB /* Artwork.swift */,
 				BB520A2F1FA8538400ACF8EB /* LocationSearchTable.swift */,
-				BB2F94D31FA3A212000335BF /* BrowseViewController.swift */,
+				BB27779F1FDA185400824533 /* ItemDescViewController.swift */,
 				BBBE4AE71FA589DC00BE8598 /* SettingsTableViewController.swift */,
 				BB2F94C41FA39FC7000335BF /* Assets.xcassets */,
-				BB2F94C11FA39FC7000335BF /* Main.storyboard */,
 				BB5721861FC0EF0F0073DDA8 /* Item.swift */,
 				BB57218C1FC4F7960073DDA8 /* List.swift */,
+				BB2F94C11FA39FC7000335BF /* Main.storyboard */,
 				BB2F94C61FA39FC7000335BF /* LaunchScreen.storyboard */,
 				BB520A3A1FA85A6C00ACF8EB /* GoogleService-Info.plist */,
 				BB2F94C91FA39FC7000335BF /* Info.plist */,
 				BB520A371FA8597500ACF8EB /* Model.xcdatamodeld */,
+				BB2777901FDA154500824533 /* produce */,
 				BB5721AC1FC546810073DDA8 /* logos */,
 				BB57219B1FC546430073DDA8 /* departments */,
 			);
@@ -185,12 +236,12 @@
 		BB5721AC1FC546810073DDA8 /* logos */ = {
 			isa = PBXGroup;
 			children = (
-				BB27777F1FD9FE5B00824533 /* central.png */,
-				BB2777811FD9FE5B00824533 /* costco.png */,
-				BB2777821FD9FE5B00824533 /* cvs.png */,
-				BB2777831FD9FE5B00824533 /* heb.png */,
-				BB27777E1FD9FE5B00824533 /* wheatsville.png */,
-				BB2777801FD9FE5B00824533 /* whole.png */,
+				BBBCE8DF1FDC8B9E00B2164A /* central.png */,
+				BBBCE8E01FDC8B9F00B2164A /* costco.png */,
+				BBBCE8DD1FDC8B9E00B2164A /* cvs.png */,
+				BBBCE8DC1FDC8B9E00B2164A /* heb.png */,
+				BBBCE8E11FDC8B9F00B2164A /* wheatsville.png */,
+				BBBCE8DE1FDC8B9E00B2164A /* whole.png */,
 			);
 			name = logos;
 			path = /Users/joannawu/Documents/GitHub/ShopMe/ShopMe/logos;
@@ -267,24 +318,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBBCE90D1FDC8C4200B2164A /* dragonfruit.png in Resources */,
 				BB5721A81FC546530073DDA8 /* meat.jpg in Resources */,
+				BBBCE8E51FDC8B9F00B2164A /* central.png in Resources */,
 				BB5721A91FC546530073DDA8 /* dairy.jpg in Resources */,
+				BBBCE9131FDC8C4200B2164A /* celery.png in Resources */,
 				BB5721A41FC546530073DDA8 /* frozen.jpg in Resources */,
-				BB2777891FD9FE5B00824533 /* heb.png in Resources */,
-				BB2777851FD9FE5B00824533 /* central.png in Resources */,
-				BB2777841FD9FE5B00824533 /* wheatsville.png in Resources */,
-				BB2777861FD9FE5B00824533 /* whole.png in Resources */,
 				BB2F94C81FA39FC7000335BF /* LaunchScreen.storyboard in Resources */,
+				BBBCE9101FDC8C4200B2164A /* mango.png in Resources */,
 				BB5721AB1FC546530073DDA8 /* snacks.jpg in Resources */,
-				BB2777871FD9FE5B00824533 /* costco.png in Resources */,
+				BBBCE90C1FDC8C4200B2164A /* brussels.png in Resources */,
+				BBBCE9141FDC8C4200B2164A /* apple.png in Resources */,
+				BBBCE8E61FDC8B9F00B2164A /* costco.png in Resources */,
+				BBBCE8E21FDC8B9F00B2164A /* heb.png in Resources */,
 				BB520A3B1FA85A6C00ACF8EB /* GoogleService-Info.plist in Resources */,
 				BB5721A71FC546530073DDA8 /* pantry.jpg in Resources */,
+				BBBCE9121FDC8C4200B2164A /* pomegranate.png in Resources */,
+				BBBCE8E71FDC8B9F00B2164A /* wheatsville.png in Resources */,
+				BBBCE9151FDC8C4200B2164A /* milk.png in Resources */,
 				BB5721A61FC546530073DDA8 /* pasta.jpg in Resources */,
-				BB2777881FD9FE5B00824533 /* cvs.png in Resources */,
+				BBBCE8E31FDC8B9F00B2164A /* cvs.png in Resources */,
+				BBBCE90B1FDC8C4200B2164A /* spinach.png in Resources */,
+				BBBCE90E1FDC8C4200B2164A /* carrots.png in Resources */,
 				BB2F94C51FA39FC7000335BF /* Assets.xcassets in Resources */,
+				BBBCE9111FDC8C4200B2164A /* banana.png in Resources */,
+				BBBCE8E41FDC8B9F00B2164A /* whole.png in Resources */,
 				BB2F94C31FA39FC7000335BF /* Main.storyboard in Resources */,
 				BB5721A51FC546530073DDA8 /* breakfast.jpg in Resources */,
 				BB5721AA1FC546530073DDA8 /* produce.jpg in Resources */,
+				BBBCE90F1FDC8C4200B2164A /* broccoli.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,12 +421,14 @@
 				BB5721961FC53B160073DDA8 /* myCell.swift in Sources */,
 				BB5721941FC53B160073DDA8 /* StoreViewController.swift in Sources */,
 				BB2F94BE1FA39FC7000335BF /* AppDelegate.swift in Sources */,
+				BB27778D1FDA145500824533 /* myCell3.swift in Sources */,
 				BB520A301FA8538400ACF8EB /* LocationSearchTable.swift in Sources */,
 				BB57218B1FC218BB0073DDA8 /* customCell.swift in Sources */,
 				BB9F4E891FA8E40C00C69C81 /* AddListTableViewController.swift in Sources */,
-				BB2F94D41FA3A212000335BF /* BrowseViewController.swift in Sources */,
+				BB2777A01FDA185400824533 /* ItemDescViewController.swift in Sources */,
 				BB520A361FA8565600ACF8EB /* MapViewController.swift in Sources */,
 				BB881DB21FA7CDA00018FFA9 /* ListTableViewCell.swift in Sources */,
+				BB2777AA1FDA230000824533 /* CreateAccViewController.swift in Sources */,
 				BB2F94D81FA50494000335BF /* ListTableViewController.swift in Sources */,
 				BB57218D1FC4F7960073DDA8 /* List.swift in Sources */,
 				BB1324611FD9E16500C70BFD /* ItemTableViewCell.swift in Sources */,
@@ -374,6 +438,7 @@
 				BB520A3D1FA85BE800ACF8EB /* LoggedInVC.swift in Sources */,
 				BBBE4AE81FA589DC00BE8598 /* SettingsTableViewController.swift in Sources */,
 				BB5721991FC53B160073DDA8 /* DepartmentViewController.swift in Sources */,
+				BB27778B1FDA134400824533 /* ProductsViewController.swift in Sources */,
 				BB520A431FA85C5800ACF8EB /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

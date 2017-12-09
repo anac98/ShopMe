@@ -41,7 +41,7 @@ class DepartmentViewController: UIViewController, UICollectionViewDataSource, UI
         cell2.myImageView2.image = UIImage(named: (array[indexPath.row] + ".jpg"))
         cell2.myLabelView2.text = array2[indexPath.row]
         cell2.layer.cornerRadius = cell2.frame.size.width/2
-//        cell2.clipsToBounds = true
+        cell2.clipsToBounds = true
         return cell2
     }
  

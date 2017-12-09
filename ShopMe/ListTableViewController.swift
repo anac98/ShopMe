@@ -31,6 +31,10 @@ class ListTableViewController: UITableViewController {
         tableView.separatorInset = UIEdgeInsets.zero
         tableView.layoutMargins = UIEdgeInsets.zero
         navigationItem.title = "Your Shopping List"
+        self.navigationController?.navigationBar.titleTextAttributes = [ NSAttributedStringKey.font: UIFont(name: "Avenir Next Condensed", size: 20)!]
+        //UILabel.appearance().font = UIFont(name: "Avenir Next", size: 17.0)
+
+
         startObservingDatabase()
         //cell.layoutMargins = UIEdgeInsets.Zero
         //self.view.addGestureRecognizer(UIGestureRecognizer(target:self.view, action: #selector(UIView.endEditing(_:))))
@@ -42,8 +46,15 @@ class ListTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        self.view.endEditing(true)
+//    }
     @IBAction func addList(_ sender: Any) {
         getListName()
+    }
+    func textFieldShouldReturn(textField: UITextField!) -> Bool {
+        self.view.endEditing(true);
+        return false;
     }
     
     func getListName() {
@@ -61,11 +72,13 @@ class ListTableViewController: UITableViewController {
         })
         self.alertController!.addAction(ok)
         self.alertController!.addTextField { (textField) -> Void in
+            textField.autocorrectionType = UITextAutocorrectionType.yes
             // Enter the textfield customization code here.
             self.titleTextField = textField
             self.titleTextField?.placeholder = "Enter Item Name"
         }
-        
+//        alertController?.addTextField() { (textField:UITextField!) -> Void in textField.autocorrectionType = UITextAutocorrectionType.yes }
+    
         present(self.alertController!, animated: true, completion: nil)
         
     }
@@ -178,4 +191,14 @@ class ListTableViewController: UITableViewController {
     }
     */
 
+}
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action:    #selector(UIViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }

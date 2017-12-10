@@ -87,7 +87,7 @@ extension MapViewController: HandleMapSearch {
         mapView.setRegion(region, animated: true)
     }
 }
-
+/*
 extension MapViewController : MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView?{
         if annotation is MKUserLocation {
@@ -115,5 +115,6 @@ extension MapViewController : MKMapViewDelegate {
         }
     }
 }
+*/
 //will need to add the stuff from info on joannas, create the delegate from the map view to the blinky yellow thing at the top and create the vc anyways and pair it with the vc class and create an outlet
 

@@ -11,8 +11,10 @@ import UIKit
 class DepartmentViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     @IBOutlet weak var myCollectionView2: UICollectionView!
     
-    let array:[String] = ["dairy", "frozen", "meat", "pasta", "produce", "snacks", "pantry", "breakfast"]
-    let array2:[String] = ["dairy", "frozen", "meat", "pasta", "produce", "snacks", "pantry", "breakfast"]
+    let array:[String] = ["dairy", "frozen", "pasta", "produce", "snacks", "pantry", "breakfast"]
+    let array2:[String] = ["dairy", "frozen", "pasta", "produce", "snacks", "pantry", "breakfast"]
+    
+    //var selectedIndexPath: IndexPath?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +45,19 @@ class DepartmentViewController: UIViewController, UICollectionViewDataSource, UI
         cell2.layer.cornerRadius = cell2.frame.size.width/2
         cell2.clipsToBounds = true
         return cell2
+    }
+
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showProducts" {
+            let detailsVC = segue.destination as! ProductsViewController
+            let cell = sender as! myCell2
+            let indexPaths = self.myCollectionView2.indexPath(for: cell)
+            let thisDept = self.array[indexPaths!.row]
+            detailsVC.department = thisDept
+            
+        }
+
     }
  
 }
